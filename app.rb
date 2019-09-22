@@ -12,11 +12,6 @@ configure do
 end
 
 helpers do
-  def link(text, href = text)
-    status = request.path.eql?(href) ? 'active' : 'inactive'
-    "<a href='#{href}' class='#{status}'>#{text}</a>"
-  end
-
   def asset(source)
     Assets.path(source)
   end
