@@ -1,0 +1,15 @@
+name: Lint
+on: push
+
+jobs:
+  lint:
+    name: Rubocop
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-ruby@master
+        with:
+          ruby-version: 2.6.3
+      - run: gem install bundler
+      - run: bundle install
+      - run: bundle exec rubocop
