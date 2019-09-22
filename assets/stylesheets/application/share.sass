@@ -1,0 +1,31 @@
+.share
+  top: 40vh
+  left: 0px
+  position: fixed
+  width: 0
+  z-index: 100
+  margin: -10px 0 0
+
+  &__item
+    width: 0px
+    padding: 10px 0 0
+
+  &__link
+    color: #FFF
+    position: relative
+    display: block
+    width: 50px
+    height: 50px
+    transition: left 0.2s ease-in-out
+    left: -20px
+
+    &:hover
+      left: 0px
+
+  &--tw
+    background-image: asset("share/twitter.svg"), linear-gradient(#EEEEEE, #D8D8D8)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)
+
+  &--fb
+    background-image: asset("share/facebook.svg"), linear-gradient(#EEEEEE, #D8D8D8)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)

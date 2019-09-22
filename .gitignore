@@ -1,0 +1,4 @@
+.bundle
+.sass*
+log/*
+tmp/*
