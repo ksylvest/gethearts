@@ -1,4 +1,5 @@
 .bundle
 .sass*
+coverage
 log/*
 tmp/*
