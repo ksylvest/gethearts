@@ -1,1 +1,17 @@
-<svg width="8" height="8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b"><stop stop-color="#FFF" offset="0%"/><stop stop-color="#FFF" stop-opacity="0" offset="100%"/></linearGradient><path id="a" d="M0 0h8v8H0z"/></defs><g fill="none" fill-rule="evenodd" opacity=".08"><mask id="c" fill="#fff"><use xlink:href="#a"/></mask><path fill="url(#b)" mask="url(#c)" d="M0 0h4v8H0zM4-5h4v8H4zM4 4h4v8H4z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+  <defs>
+    <rect id="checked-a" width="8" height="8"/>
+    <linearGradient id="checked-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" opacity=".08">
+    <mask id="checked-c" fill="#fff">
+      <use xlink:href="#checked-a"/>
+    </mask>
+    <rect width="4" height="8" fill="url(#checked-b)" mask="url(#checked-c)"/>
+    <rect width="4" height="8" x="4" y="-5" fill="url(#checked-b)" mask="url(#checked-c)"/>
+    <rect width="4" height="8" x="4" y="4" fill="url(#checked-b)" mask="url(#checked-c)"/>
+  </g>
+</svg>
