@@ -1,1 +1,11 @@
-<svg width="4" height="4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h4v4H0z"/></defs><g fill="none" fill-rule="evenodd" opacity=".04"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M0 4l4-4M-2 2l4-4M2 6l4-4" stroke="#FFF" stroke-linecap="square" mask="url(#b)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4" height="4" viewBox="0 0 4 4">
+  <defs>
+    <rect id="striped-a" width="4" height="4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" opacity=".08">
+    <mask id="striped-b" fill="#fff">
+      <use xlink:href="#striped-a"/>
+    </mask>
+    <path stroke="#FFF" stroke-linecap="square" d="M0 4L4 0M-2 2L2-2M2 6L6 2" mask="url(#striped-b)"/>
+  </g>
+</svg>
