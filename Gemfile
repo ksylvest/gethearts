@@ -11,7 +11,7 @@ gem 'rack-cache', require: 'rack/cache'
 gem 'rack-ssl', require: 'rack/ssl'
 
 gem 'rake'
-gem 'sass'
+gem 'sassc'
 gem 'slim'
 gem 'sprockets'
 gem 'uglifier'
