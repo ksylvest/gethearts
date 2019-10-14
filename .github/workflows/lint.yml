@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-ruby@master
         with:
-          ruby-version: 2.6.3
+          ruby-version: 2.6.5
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec rubocop
