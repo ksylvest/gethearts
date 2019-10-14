@@ -17,20 +17,8 @@ class Assets < Sprockets::Environment
   end
 end
 
-module Sass
-  module Assets
-    module Helpers
-      def asset(source)
-        Sass::Script::String.new("url(#{::Assets.path(source.value)})")
-      end
-    end
-  end
-end
-
-module Sass
-  module Script
-    module Functions
-      include Sass::Assets::Helpers
-    end
+module Sprockets::SasscProcessor::Functions
+  def asset_url(source)
+    ::SassC::Script::Value::String.new("url(#{::Assets.path(source.value)})")
   end
 end
