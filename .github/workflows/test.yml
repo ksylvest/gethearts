@@ -6,15 +6,23 @@ jobs:
     name: RSpec
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-ruby@master
+      - uses: actions/checkout@v2.0.0
+      - uses: actions/setup-ruby@v1.1.1
         with:
           ruby-version: 2.7.0
-      - run: gem install bundler
+      - uses: actions/cache@v1.1.0
+        with:
+          path: vendor/bundle
+          key: bundler-${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            bundler-${{ runner.os }}
       - env:
           BUNDLE_JOBS: 4
           BUNDLE_RETRY: 4
-        run: bundle install
+        run: |
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install
       - run: bundle exec rspec
       -
         run: |
