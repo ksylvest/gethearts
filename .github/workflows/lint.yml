@@ -11,5 +11,8 @@ jobs:
         with:
           ruby-version: 2.7.0
       - run: gem install bundler
-      - run: bundle install
+      - env:
+          BUNDLE_JOBS: 4
+          BUNDLE_RETRY: 4
+        run: bundle install
       - run: bundle exec rubocop
