@@ -17,7 +17,7 @@ AllCops:
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
 Layout/EmptyLinesAroundBlockBody:
@@ -31,6 +31,9 @@ Layout/EmptyLinesAroundModuleBody:
 
 Lint/AmbiguousBlockAssociation:
   Enabled: false
+
+Layout/LineLength:
+  Max: 120
 
 Style/FrozenStringLiteralComment:
   Enabled: false
@@ -64,9 +67,6 @@ Style/ExpandPathArguments:
 
 Metrics/BlockLength:
   Enabled: false
-
-Metrics/LineLength:
-  Max: 120
 
 Metrics/MethodLength:
   Enabled: false
