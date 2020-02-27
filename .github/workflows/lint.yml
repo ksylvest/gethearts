@@ -13,14 +13,11 @@ jobs:
       - uses: actions/cache@v1.1.0
         with:
           path: vendor/bundle
-          key: bundler-${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-bundler-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            bundler-${{ runner.os }}
-      - env:
-          BUNDLE_JOBS: 4
-          BUNDLE_RETRY: 4
-        run: |
+            ${{ runner.os }}-bundler-
+      - run: |
           gem install bundler
           bundle config path vendor/bundle
-          bundle install
+          bundle install --jobs 4 --retry 4
       - run: bundle exec rubocop
