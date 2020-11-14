@@ -1,4 +1,4 @@
-require './app.rb'
+require './app'
 
 use Rack::SSL if production?
 
