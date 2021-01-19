@@ -95,7 +95,7 @@ GEM
       rubocop (~> 1.0)
       rubocop-ast (>= 1.1.0)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.2)
+    ruby2_keywords (0.0.3)
     sassc (2.4.0)
       ffi (~> 1.9)
     simplecov (0.21.2)
@@ -127,6 +127,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  ruby
   x86_64-darwin-20
   x86_64-linux
   x86_64-unknown
