@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Hearts
+    meta(charset="UTF-8")
+    meta(content="Hearts, Cards, Mac, App, Store" name="keywords")
+    meta(content="The best Hearts game available in the Mac App Store." name="description")
+    meta(content="Hearts" property="og:title")
+    meta(content="The best Hearts game available in the Mac App Store" property="og:description")
+    meta(content="website" property="og:type")
+    meta(content="http://www.gethearts.com/" property="og:url")
+    meta(content="/image.png" property="og:image")
+    link(href="//fonts.googleapis.com/css?family=Alegreya|Lato" rel="stylesheet")
+    script(src="//unpkg.com/jquery" rel="text/javascript")
+    link(href="application.css" rel="stylesheet" type="text/css")
+    script(src="/application.js" type="text/javascript")
+
+  body.main
+    include partials/share.pug
+    include partials/header.pug
+    include partials/carousel.pug
+    .content
+      block content
+    include partials/footer.pug

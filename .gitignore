@@ -1,5 +1,1 @@
-.bundle
-.sass*
-coverage
-log/*
-tmp/*
+_site

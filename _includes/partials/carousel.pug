@@ -1,0 +1,8 @@
+.carousel
+  .container
+    .columns
+      each index in [1, 2, 3, 4]
+        .column
+          a.carousel__entry(href="/samples/originals/" + index + ".png" data-lighten="lightbox")
+            .carousel__zoom +
+            img.carousel__image(src="/samples/thumbs/" + index + ".jpg" srcset="/samples/thumbs/" + index + "/@2x.jpg 2x, /samples/thumbs/" + index + "@3x.jpg 3x, /samples/thumbs/" + index + ".jpg" width=220 height=165 alt="Thumb-" + index)
