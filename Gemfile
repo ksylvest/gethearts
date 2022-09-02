@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-ruby '3.0.0'
+ruby '3.1.2'
 
 gem 'puma'
 
@@ -20,7 +22,7 @@ gem 'coffee-script'
 
 group :development do
   gem 'rubocop'
-  gem 'rubocop-rails'
+  gem 'rubocop-rake'
   gem 'rubocop-rspec'
   gem 'simplecov', require: false
 end
