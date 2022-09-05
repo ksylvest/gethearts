@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .serif {
+  font-family: "Alegreya", Georgia, Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+  line-height: 1.4em;
+}
+
+p {
+  color: #666666;
+  line-height: 1.6em;
+}
+
+a {
+  color: #006699;
+}
+
+a {
+  outline: none;
+}
+
+img {
+  border: none;
+}
