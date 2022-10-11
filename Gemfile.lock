@@ -27,7 +27,7 @@ GEM
     mini_mime (1.1.2)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
-    newrelic_rpm (8.10.0)
+    newrelic_rpm (8.11.0)
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
