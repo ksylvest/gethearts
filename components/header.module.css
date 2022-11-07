@@ -1,0 +1,11 @@
+.container {
+  color: #FFF;
+  text-shadow: rgba(0, 0, 0, 0.2) -1px -1px 1px;
+  padding: 2em 0px;
+  background-image: url("/textures/checked.svg"), linear-gradient(#ED145B, #9D0A0F);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}

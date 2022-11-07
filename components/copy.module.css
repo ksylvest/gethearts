@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  padding: 8px 0px;
+  margin: 8px 0px;
+}
+
+.link {
+  color: #CCC;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #DDD;
+  text-decoration: none;
+}

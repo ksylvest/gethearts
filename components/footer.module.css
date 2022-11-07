@@ -1,0 +1,49 @@
+.container {
+  color: #FFFFFF;
+  padding: 2em 0px;
+  background-image: url("/textures/striped.svg"), linear-gradient(#444444, #222222);
+}
+
+.content {
+  display: flex;
+  margin: -10px;
+}
+
+.section {
+  padding: 10px;
+  flex: 1 1 auto;
+}
+
+.title {
+  display: block;
+  font-size: 1.2em;
+}
+
+.title a {
+  color: #EEE;
+  text-decoration: none;
+  display: block;
+}
+
+.title a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.links {
+  padding: 2px 0px;
+  margin: 2px 0px;
+}
+
+.links a {
+  color: #CCC;
+  text-decoration: none;
+  padding: 2px 0px;
+  margin: 2px 0px;
+  display: block;
+}
+
+.links a:hover {
+  color: #DDD;
+  text-decoration: none;
+}

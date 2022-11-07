@@ -3,13 +3,11 @@ on: push
 
 jobs:
   test:
-    name: RSpec
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
+      - uses: actions/setup-node@v3
       - run: bundle exec rspec
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}

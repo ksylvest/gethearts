@@ -1,0 +1,36 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 10px;
+  background-image: url("/textures/striped.svg"), linear-gradient(#F26D7D, #9E0039);
+  border-color: #FFFFFF;
+  border-style: solid;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), inset 0 2px 16px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border-width: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  padding: 10px;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.title {
+  font-size: 1.8em;
+}
+
+.subtitle {
+  font-size: 1.2em;
+}
