@@ -1,0 +1,42 @@
+.container {
+  padding: 20px 0px;
+  background-color: #222222;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.entry {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background-image: linear-gradient(#FFFFFF, #EEEEEE);
+  box-shadow: 0 0 0 2px #FFFFFF;
+  text-decoration: none;
+}
+
+.zoom {
+  position: absolute;
+  display: block;
+  top: -10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  color: #222222;
+  text-align: center;
+  font-size: 28px;
+  line-height: 24px;
+  background-image: linear-gradient(#ED145B, #9D0A0F);
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.thumb {
+  font-size: 0;
+  line-height: 0;
+}

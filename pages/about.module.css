@@ -1,0 +1,14 @@
+.developer {
+  display: flex;
+  margin: -10px;
+}
+
+.developer_avatar {
+  padding: 10px;
+  flex: 0 0 auto;
+}
+
+.developer_bio {
+  padding: 10px;
+  flex: 1 1 auto;
+}

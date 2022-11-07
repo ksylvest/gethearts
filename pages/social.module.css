@@ -1,0 +1,61 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -10px;
+}
+
+.item {
+  padding: 10px;
+  flex: 0 1 auto;
+}
+
+.button {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.4em 0.8em;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+.button_tw {
+  composes: button;
+  color: #FFFFFF;
+  padding: 0.8em;
+  background-image: url("/textures/striped.svg"), linear-gradient(#00BFF3, #0076A3);
+  border-color: #005B7F;
+}
+
+.button_fb {
+  composes: button;
+  color: #FFFFFF;
+  padding: 0.8em;
+  background-image: url("/textures/striped.svg"), linear-gradient(#8393CA, #0054A6);
+  border-color: #003471;
+}
+
+.button_content {
+  display: flex;
+  align-items: center;
+  margin: -10px;
+}
+
+.button_icon {
+  padding: 10px;
+}
+
+.button_text {
+  padding: 10px;
+}
+
+.button_title {
+  font-size: 1.8em;
+}
+
+.button_subtitle {
+  font-size: 1.2em;
+}

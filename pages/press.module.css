@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -10px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border-color: #DDDDDD;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  font-weight: bold;
+}
