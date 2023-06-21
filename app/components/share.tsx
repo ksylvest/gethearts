@@ -1,4 +1,4 @@
-import { FB_SHARE_URL, TW_SHARE_URL } from "../config";
+import { FB_SHARE_URL, TW_SHARE_URL } from "@/config";
 
 import styles from "./share.module.css";
 

@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import APPSTORE from "../public/appstore.svg";
+import APPSTORE from "@/public/appstore.svg";
 
-import { DOWNLOAD_URL } from "../config";
+import { DOWNLOAD_URL } from "@/config";
 
 import styles from "./download.module.css";
 

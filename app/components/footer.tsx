@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { FB_COMPANY_URL, TW_COMPANY_URL } from "../config";
+import { FB_COMPANY_URL, TW_COMPANY_URL } from "@/config";
 
 import { Copy } from "./copy";
 import { Separator } from "./separator";
