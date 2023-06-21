@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import LOGO from "../public/logo.svg";
+import LOGO from "@/public/logo.svg";
 
 import { Download } from "./download";
 import { Wrapper } from "./wrapper";

@@ -8,7 +8,7 @@ import { Share } from "./share";
 import { Header } from "./header";
 import { Footer } from "./footer";
 
-export const Layout = ({ children }: { children: ReactNode }) => (
+export const Main = ({ children }: { children: ReactNode }) => (
   <>
     <Script
       async
@@ -21,7 +21,7 @@ export const Layout = ({ children }: { children: ReactNode }) => (
         gtag('js', new Date());
 
         gtag('config', 'UA-22086343-1');
-        `}
+      `}
     </Script>
     <Head>
       <meta name="keywords" content="Hearts, Cards, Mac, App, Store" />
@@ -32,7 +32,7 @@ export const Layout = ({ children }: { children: ReactNode }) => (
       <meta name="og:title" content="Hearts" />
       <meta
         name="og:description"
-        content="The best Hearts game available in the Mac App Store"
+        content="The best Hearts game available in the Mac App Store."
       />
       <meta name="og:url" content="http://www.gethearts.com/" />
       <meta name="og:image" content="/image.png" />
