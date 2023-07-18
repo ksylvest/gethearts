@@ -1,8 +1,6 @@
-import type { AppProps } from "next/app";
-import Head from "next/head";
-
 import "@/styles/global.css";
 
+import { Analytics } from "@vercel/analytics/react";
 import { Main } from "@/app/components/main";
 
 const Layout: React.FC<{
@@ -11,6 +9,7 @@ const Layout: React.FC<{
   <html lang="en">
     <body>
       <Main>{children}</Main>
+      <Analytics />
     </body>
   </html>
 );
