@@ -10,7 +10,12 @@ export function middleware(request: NextRequest) {
 
   const ua = request.headers.get("user-agent");
 
-  if (ua?.includes("Macintosh;") || ua?.includes("iPad;"))
+  if (
+    ua?.includes("iPad;") ||
+    ua?.includes("iPhone;") ||
+    ua?.includes("iPod;") ||
+    ua?.includes("Macintosh;")
+  )
     return NextResponse.redirect(APP_URL);
 
   return NextResponse.redirect(FALLBACK_URL);
