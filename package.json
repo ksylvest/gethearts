@@ -12,7 +12,7 @@
     "@vercel/analytics": "^1.2.2",
     "classnames": "^2.5.1",
     "next": "14.2.3",
-    "react": "18.2.0",
+    "react": "18.3.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
