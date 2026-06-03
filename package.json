@@ -12,12 +12,12 @@
     "@vercel/analytics": "^2.0.1",
     "classnames": "^2.5.1",
     "next": "15.5.14",
-    "react": "19.2.6",
+    "react": "19.2.7",
     "react-dom": "19.2.6"
   },
   "devDependencies": {
     "@types/node": "25.9.1",
-    "@types/react": "19.2.15",
+    "@types/react": "19.2.16",
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.2",
     "eslint-config-next": "15.5.6",
